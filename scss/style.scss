@@ -227,3 +227,41 @@ textarea {
 		border-color: $primery-color;
 	}
 }
+.ba-icon{
+  display: none;
+}
+.ba-section{
+  padding: 50px 0;
+}
+@media screen and (min-width:768px) and (max-width: 1023px){
+  .ba-crewman__img{
+    padding: 0 30px;
+  }
+  .ba-crewman__info{
+    padding: 40px 30px;
+  }
+}
+@media screen and (max-width:767px){
+  .ba-crewman{
+    display: flex;
+    flex-direction: column;
+  }
+  .ba-crewman__img, .ba-crewman__info{
+    width: 100%;
+  }
+  .ba-crewman__img{
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .ba-crewman__info{
+    padding: 40px 30px;
+    border: none;
+  }
+} 
+@media screen and (max-width:480px){
+  .ba-section-title{
+    font-size: 36px;
+  }
+
+}
